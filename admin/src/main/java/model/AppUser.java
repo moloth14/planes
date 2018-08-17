@@ -1,11 +1,11 @@
 package model;
 
-public class User {
+public class AppUser {
 
     private Long id;
     private String name;
 
-    public User() {
+    public AppUser() {
 
     }
 
