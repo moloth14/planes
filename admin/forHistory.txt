@@ -1,0 +1,7 @@
+1). Web application sample was copy-pasted from here: http://www.thinkcode.se/blog/2009/04/06/how-can-i-create-a-simple-web-application-using-spring-mvc
+2). There is no easy way to run Tomcat from the IDEA CE, so I've used the tomcat7-maven-plugin (see pom.xml).
+The instruction for using it may be found here, for example: https://www.mkyong.com/maven/how-to-deploy-maven-based-war-file-to-tomcat/
+It needs to know:
+a). you'll have to change your Maven and Tomcat config files as written there (so there are not any changes in the project files, trust your memory);
+b). you could create a Maven run configuration to execute redeploy command, but the Tomcat server has to be already started;
+c). it may be better to change the port to 8081, for example (in tomcat/conf/server.xml too) to avoid duplicating processes on 8080.

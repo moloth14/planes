@@ -1,5 +1,5 @@
 .idea/*
-target/*
+**/target/*
 *.iml
 *.jar
 my.properties
